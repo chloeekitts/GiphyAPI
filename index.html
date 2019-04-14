@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Workplace Slackin'</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body id="wholeThing">
+
+<div class="jumbotron" id="header">
+  <img id="topImageL" src="assets/images/slack-icon1.png">
+  <img id="topImageR" src="assets/images/slack-icon1.png">
+  <h1>Workplace Slackin'</h1>
+  <h4>Click the buttons to display GIPHYs that will bring humor to your workplace conversations, whether you're chatting in Slack or just a slacker.<br><br>Click the GIPHYs to pause and play<br>Search to add more buttons!</h4>
+</div>
+
+<form class="form-inline" id="netflixSearch">
+  <div class="form-group">
+    <label for=netflixInput">Search for a Giphy:</label>
+    <input type="text" id="netflixInput">
+  </div>
+  <!-- Button triggers show to be added -->
+  <input id="addShow" type="submit" value="submit">
+</form>
+
+<div class="row">
+  <div class="container">
+    <div class="btn-group inline pull-left">
+      <button class="btn btn-primary" id="show" data-search="I Hate Mondays">I Hate Mondays</button>
+      <button class="btn btn-primary" id="show" data-search="Need Coffee">Need Coffee</button>
+      <button class="btn btn-primary" id="show" data-search="Meeting Cancelled">Meeting Cancelled</button>
+      <button class="btn btn-primary" id="show" data-search="Free Lunch">Free Lunch</button>
+	<button class="btn btn-primary" id="show" data-search="On Vacation">On Vacation</button>
+	<button class="btn btn-primary" id="show" data-search="TGIF">TGIF</button>
+
+      <div id="myButtons"></div>
+    </div> <!--end of button group -->
+  </div> <!--end of container -->
+</div> <!--end of row -->
+
+
+<div class="row">
+  <div class="container">
+      <span><div id="gifArea"></div></span>
+  </div> <!--end of container -->
+</div> <!-- end of row  -->
+
+
+<script type="text/javascript" src="assets/javascript/app.js"</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</body>
+</html>
