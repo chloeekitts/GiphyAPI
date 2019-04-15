@@ -1,9 +1,9 @@
 #header {
-	background-color: #88D8D0;
+	background-color: #B10006;
 	color: #ffffff;
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 15px;
+	padding-top:0px;
+	padding-bottom: 20px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
@@ -13,16 +13,10 @@ h4 {
 }
 
 #topImageL {
-	width: 15%;
-	float: left;
-	margin-left: 20px;
+	width: 100%;
+	align-content: center;
 }
 
-#topImageR {
-	width: 15%;
-	float: right;
-	margin-right: 20px;
-}
 
 label {
 	font-size: 18px;
@@ -38,7 +32,7 @@ label {
 #netflixSearch {
 	margin: 0 auto;
 	text-align: center;
-	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
 #gifArea {
